@@ -29,7 +29,6 @@
 }
 
 .banner p {
-    /* color: white; */
     margin: 15px 0;
     max-width: 80%;
 }
@@ -80,7 +79,36 @@
     flex: 1;
 }
 
+.upcoming-matches-right .card {
+    border: 1px solid rgba(232, 232, 232);
+    border-radius: 10px;
+}
+
+.upcoming-matches-right .card .card-body {
+    padding: 10px;
+}
+
 .upcoming-matches-right .card img {
     height: 180px;
     width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.upcoming-matches-right .card .btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 17px;
+}
+
+.upcoming-matches-right .card h2 {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-bottom {
+    display: flex;
+    gap: 20px;
+    color: #161616;
 }
