@@ -11,7 +11,22 @@
 }
 
 img {
-    max-width: 100%;
+    /* max-width: 100%; */
+}
+
+@keyframes banner-animation {
+    0% {
+        opacity: 0.5;
+        transform: translate(-20px);
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* banner-section  */
@@ -37,7 +52,7 @@ img {
 }
 
 .banner-left {
-    padding-left: 105px;
+    padding: 0 0 0 105px;
 }
 
 .btn {
@@ -51,6 +66,7 @@ img {
 
 .banner-right img {
     display: block;
+    animation: banner-animation 0.7s ease-in-out infinite;
 }
 
 /* upcoming matches  */
@@ -169,7 +185,7 @@ img {
 
 @media (max-width:768px) {
     .container {
-        margin: 0 10px;
+        margin: 10px 10px;
     }
 
     /* banner */
@@ -182,6 +198,10 @@ img {
     .banner .banner-left {
         margin-bottom: 50px;
         padding: 0;
+    }
+
+    .banner .banner-left h2 {
+        margin-top: 20px;
     }
 
     .banner .banner-left p {
