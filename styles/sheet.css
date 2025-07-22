@@ -209,6 +209,10 @@ img {
         margin: 15px auto;
     }
 
+    .banner-right img {
+        max-width: 100%;
+    }
+
     .upcoming-matches-right {
         grid-template-columns: 1fr;
     }
